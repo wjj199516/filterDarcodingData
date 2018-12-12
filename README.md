@@ -1,5 +1,5 @@
 # filterDarcodingData
-The script is used to filter DAN Barcoding data which depends on sqlite3 database already constructed by phlawd db maker develped by Stephen lab.
+The script is used to filter DAN Barcoding data which depends on sqlite3 database already constructed by phlawd db maker which was develped by Stephen lab.
 
 Germplasm Bank of Wild Species in Southwest China has produced 24,547 rbcL sequences from 8677 species including 20,619 sequences from 7152 angiosperm species, and 21,888 matK sequences from 8057 species including 18,921 sequences from 6728 angiosperm species. This script explored the methods of reconstruction of tree based on barcording sequences of rbcL and matK. More than 50% species have at least two sequences for each marker. Some these barcoding sequences are wrong due to identification error or experiment error, wrong tree will be obtained when the longest sequence in each species are directly included in phylogenetic reconstruction. This study explored the methods of excluding wrong sequences from the reconstruction of super tree. Over 50% families were nonmonophyletic when the longest sequence of rbcL and matK in each species was selected. 
 
